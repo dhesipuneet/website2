@@ -24,7 +24,7 @@ paddle = {
 
 function drawPaddle() {
     ctx.beginPath()
-    ctx
+    ctx.arc(ball.x, ball.y, ball.size, 0, Math.PI * 2)
     ctx.fillStyle = '#009599'
     ctx.fill()
     ctx.closePath()
