@@ -4,6 +4,8 @@ closesBtn = document.getElemebtById('close-btn')
 canvas = document.getElementById('canvas')
 ctx = canvas.getContext('2d')
 
+score = 0
+
 ball = {
     x: canvas.width / 2,
     y: canvas.height /2,
@@ -42,8 +44,19 @@ function drawPaddle() {
 }
 
 
-drawPaddle()
-drawBall()
+
+function drawScore() {
+
+    ctx.fillText(`Score: ${score}, canvas.width-100, 30)
+}
+
+function draw(){
+    drawPaddle()
+    drawBall()
+    drawScore()
+}
+
+draw()
 
 rulesBtn.addEventListener('click', () => {
     rules.classList.add('show')
