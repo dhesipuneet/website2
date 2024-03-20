@@ -13,9 +13,18 @@ ball = {
     dy: -4;
 }
 
-function drawBall() {
+paddle = {
+    x: canvas.width / 2 - 40,
+    y: canvas.height - 20,
+    w: 80,
+    h: 10,
+    speed: 8,
+    dx:0,
+}
+
+function drawPaddle() {
     ctx.beginPath()
-    ctx.arc(ball.x, ball.y, ball.size, 0, Math.PI * 2)
+    ctx
     ctx.fillStyle = '#009599'
     ctx.fill()
     ctx.closePath()
