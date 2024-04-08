@@ -1,20 +1,20 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 body {
-    background-color: deeppink;
+    background-color: #0095;
     display: flex;
-    flex:-direction: column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    font-family: Georgia, serif;
+    font-family: font-family: Georgia, serif;
 }
 
 canvas {
-    background: #f0f0f0;
+    background-color: #f0f0f0;
     display: block;
     border-radius: 5px;
 }
@@ -28,17 +28,25 @@ h1 {
     cursor: pointer;
     border: 0;
     padding: 10px 20px;
-    background: black;
+    background-color: black;
     color: white;
     border-radius: 5px;
 }
 
-.btn.hover {
+.play-btn {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    background: radial-gradient( rgba(255, 0, 128, 0.8) 100%, rgba(255, 255, 255, 1));
+   // requestAnimationFrame()
+}
+
+.btn:hover {
     background: #222222;
 }
 
 .btn:active {
-    transform: scale(0.98);
+    transform: scale(0.9);
 }
 
 .rules-btn {
@@ -50,9 +58,8 @@ h1 {
 .rules {
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
-    background: #333333;
+    background-color: pink;
     color: white;
     min-height: 100vh;
     width: 400px;
@@ -62,6 +69,6 @@ h1 {
     transition: transform 1s ease-in-out;
 }
 
-.rule.show {
+.rules.show {
     transform: translateX(0);
 }
