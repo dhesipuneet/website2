@@ -27,9 +27,9 @@ function displayWord() {
         ` ).join('')
     }
 
-
     `
 
+    console.log(word.El.innerText)
 }
 
 displayWord()
