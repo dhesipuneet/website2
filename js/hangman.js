@@ -36,4 +36,8 @@ function displayWord() {
     }
 }
 
+window.addEventListener('keydown', e =>) {
+    
+}
+
 displayWord()
