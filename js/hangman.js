@@ -28,8 +28,8 @@ function displayWord() {
     }
 
     `
-
-    console.log(word.El.innerText)
+    const innerWord = wordEl.innerText.()
+    console.log(word.El.innerText.replace(/\n/g, ''))
 }
 
 displayWord()
