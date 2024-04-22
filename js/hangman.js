@@ -36,8 +36,11 @@ function displayWord() {
     }
 }
 
-window.addEventListener('keydown', e =>) {
-    
-}
+window.addEventListener('keydown', e => {
+    if (e.keyCode >= 65 && e.keyCode <=90) {
+        console.log(e.key)
+    }
+
+})
 
 displayWord()
