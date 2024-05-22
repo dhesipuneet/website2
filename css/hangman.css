@@ -71,11 +71,11 @@ h1 {
     height: 50px;
     width: 20px;
     margin: 0 3px;
-    border-bottom: 3px solid #2980b9;
+    border-bottom: 3px solid hotpink;
 }
 
 .popup-container {
-    background-color: rgba(0,0,0,0.3);
+    background-color: hotpink;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -90,15 +90,15 @@ h1 {
 .popup {
     background: pink;
     border-radius: 5px;
-    box-shadow: 0 15px 10px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 10px 3px hotpink;
     padding: 20px;
     text-align: center;
 }
 
 .popup button {
     cursor: pointer;
-    background-color: pink;
-    color: pink;
+    background-color: hotpink;
+    color: hotpink;
     margin-top: 20px;
     padding: 12px 20px;
     font-size: 16px;
@@ -109,7 +109,7 @@ h1 {
 }
 
 .notification-container {
-    background-color: pink;
+    background-color: hotpink;
     padding: 15px 20px;
     border-radius: 10px 10px 0 0;
     position: absolute;
