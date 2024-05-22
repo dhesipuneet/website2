@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: #34495e;
-    color: #ffffff;
+    background-color: pink;
+    color: hotpink;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@ h1 {
 }
 
 .popup {
-    background: #2980b9;
+    background: pink;
     border-radius: 5px;
     box-shadow: 0 15px 10px 3px rgba(0,0,0,0.1);
     padding: 20px;
@@ -97,8 +97,8 @@ h1 {
 
 .popup button {
     cursor: pointer;
-    background-color: #ffffff;
-    color: #2980b9;
+    background-color: pink;
+    color: pink;
     margin-top: 20px;
     padding: 12px 20px;
     font-size: 16px;
@@ -109,7 +109,7 @@ h1 {
 }
 
 .notification-container {
-    background-color: rgba(0,0,0,0.3);
+    background-color: pink;
     padding: 15px 20px;
     border-radius: 10px 10px 0 0;
     position: absolute;
