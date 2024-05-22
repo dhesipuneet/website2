@@ -3,14 +3,14 @@
 }
 
 body {
-    background-color: #0095;
+    background-color: #0095dd;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    font-family: font-family: Georgia, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 canvas {
@@ -28,25 +28,17 @@ h1 {
     cursor: pointer;
     border: 0;
     padding: 10px 20px;
-    background-color: black;
+    background-color: #000;
     color: white;
     border-radius: 5px;
 }
 
-.play-btn {
-    width: 70px;
-    height: 30px;
-    position: absolute;
-    background: radial-gradient( rgba(255, 0, 128, 0.8) 100%, rgba(255, 255, 255, 1));
-   // requestAnimationFrame()
-}
-
 .btn:hover {
-    background: #222222;
+    background-color: #222;
 }
 
 .btn:active {
-    transform: scale(0.9);
+    transform: scale(0.98);
 }
 
 .rules-btn {
@@ -59,7 +51,7 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: pink;
+    background-color: #333;
     color: white;
     min-height: 100vh;
     width: 400px;
